@@ -37,3 +37,4 @@ python3 -m http.server 8080
 ```
 
 Open `http://127.0.0.1:8080/`. To check the project-site subpath, serve the parent directory so the site is available at `/bucarr.com/`.
+
