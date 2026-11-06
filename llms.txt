@@ -1,0 +1,43 @@
+# BuCarr
+
+> BuCarr Techsol in Landsberg am Lech bietet Carbono an: eine hochauflösende Kalibrierplatte aus Kohlenstofffaser, mit der die Entzerrung eines Bildes in Machine-Vision-Systemen korrigiert wird.
+
+Die Angaben unten stehen so auf den öffentlichen Seiten. Diese Datei fügt keine Leistungen, Zertifikate, Kunden, Kennzahlen oder Auszeichnungen hinzu. Sie hilft beim Einordnen der Website und ist keine Garantie, in Antworten von Such- oder Sprachmodellen genannt zu werden.
+
+Kanonische Adressen verwenden https://bucarr.com. Dieselben Dateien liegen bis zur Verbindung der Domain auch unter https://mabc80.github.io/bucarr.com/.
+
+## Seiten
+
+- [Startseite](https://bucarr.com/): Produkttext zu Carbono und Spezifikationen
+- [Anwendungen](https://bucarr.com/anwendungen/): Hand-Auge-Kalibrierung eines Robotersystems, Verzeichnungskorrektur, Objektmessungen in realen Maßeinheiten
+- [Kontakt](https://bucarr.com/kontakt/): Kontaktformular und Kontaktdaten
+- [Impressum](https://bucarr.com/impressum/): Anbieterkennzeichnung
+- [Datenschutz](https://bucarr.com/datenschutz/): Datenschutzerklärung
+- [AGB](https://bucarr.com/agb/): Allgemeine Geschäftsbedingungen
+
+## Kontakt
+
+- BuCarr Techsol, Inhaber Martín Bueno Carrillo
+- OBgm.-Dr.-Engshuber-Straße 22a, 86899 Landsberg am Lech, Deutschland
+- E-Mail: info@bucarr.com
+- Telefon: +49 (0) 8191 940 6883
+- Mobil: 0151/25507249
+- USt-IdNr.: DE 335301075
+- Steuernummer: 131/208/30796
+
+## Produkt
+
+Carbono ist eine hochauflösende Kalibrierplatte aus Kohlenstofffaser mit der die Entzerrung eines Bildes in Maschine Vision Systemen korrigiert wird. Die Kalibrierungsstrukturen werden hochauflösend auf die Platte gedruckt. Damit reduziert sich der statistische Fehler der Bildentzerrung. Das Messen von Objekten und Abständen Ihrer Maschine Vision Anwendung wird nach der Entzerrung zuverlässiger.
+
+Die Kohlenstofffaser weisen außerdem eine hervorragende mechanische Festigkeit und ein geringes Materialgewicht auf.
+
+Spezifikationen laut Startseite:
+
+- Platten-Dimensionen (LxB) variabel von 100mm bis 2000mm
+- Plattenstärke variabel von 1mm bis 5mm
+- Platten-Ebenheit von 0,1mm bis 0,3mm abhängig von den Platten-Dimensionen
+- Diffus-reflektierender Belag
+- Strukturgrößen bis zu 0.3mm
+- Strukturgenauigkeit ±10µm
+
+Genannte Anwendungen: Hand-Auge-Kalibrierung eines Robotersystems, Verzeichnungskorrektur eines industriellen Kamerasystems, Objektmessungen in realen Maßeinheiten.

@@ -4,7 +4,101 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kontakt | BuCarr</title>
-  <meta name="description" content="Hier finden Sie unsere Kontakt-Formular und Kontaktdaten.">
+  <meta name="description" content="Kontaktformular und Kontaktdaten von BuCarr Techsol: Martin Bueno Carrillo, info@bucarr.com, 0151/25507249.">
+  <link rel="canonical" href="https://bucarr.com/kontakt/">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BuCarr">
+  <meta property="og:title" content="Kontakt | BuCarr">
+  <meta property="og:description" content="Kontaktformular und Kontaktdaten von BuCarr Techsol: Martin Bueno Carrillo, info@bucarr.com, 0151/25507249.">
+  <meta property="og:url" content="https://bucarr.com/kontakt/">
+  <meta property="og:image" content="https://bucarr.com/assets/platte.jpg">
+  <meta property="og:image:alt" content="Carbono Kalibrierplatte">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://bucarr.com/#organization",
+      "name": "BuCarr Techsol",
+      "alternateName": "BuCarr",
+      "url": "https://bucarr.com/",
+      "image": "https://bucarr.com/assets/logo-bucarr.png",
+      "email": "info@bucarr.com",
+      "telephone": [
+        "+49 (0) 8191 940 6883",
+        "0151/25507249"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "OBgm.-Dr.-Engshuber-Straße 22a",
+        "postalCode": "86899",
+        "addressLocality": "Landsberg am Lech",
+        "addressCountry": "DE"
+      },
+      "vatID": "DE 335301075",
+      "taxID": "131/208/30796",
+      "brand": {
+        "@type": "Brand",
+        "name": "Carbono"
+      },
+      "description": "BuCarr bietet hochauflösende Kalibrierplatten aus Kohlenstofffasern, mit den die Entzerrung eines Bildes in Maschine Vision Systemen korrigiert wird."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://bucarr.com/#website",
+      "url": "https://bucarr.com/",
+      "name": "BuCarr",
+      "inLanguage": "de",
+      "publisher": {
+        "@id": "https://bucarr.com/#organization"
+      },
+      "description": "BuCarr bietet hochauflösende Kalibrierplatten aus Kohlenstofffasern, mit den die Entzerrung eines Bildes in Maschine Vision Systemen korrigiert wird."
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://bucarr.com/kontakt/#webpage",
+      "url": "https://bucarr.com/kontakt/",
+      "name": "Kontakt | BuCarr",
+      "description": "Kontaktformular und Kontaktdaten von BuCarr Techsol: Martin Bueno Carrillo, info@bucarr.com, 0151/25507249.",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@id": "https://bucarr.com/#website"
+      },
+      "about": {
+        "@id": "https://bucarr.com/#organization"
+      },
+      "primaryImageOfPage": "https://bucarr.com/assets/platte.jpg",
+      "mainEntity": {
+        "@id": "https://bucarr.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://bucarr.com/kontakt/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://bucarr.com/kontakt/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://bucarr.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Kontakt",
+          "item": "https://bucarr.com/kontakt/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <meta name="theme-color" content="#e21c21">
   <link rel="icon" href="../assets/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="../assets/favicon-192.png">
@@ -33,17 +127,47 @@
     </nav>
   </header>
   <main id="inhalt">
-    <h1 class="page-title">Kontakt</h1>
+    <nav class="crumbs" aria-label="Brotkrumen">
+      <ol>
+        <li><a href="../index.html">Startseite</a></li>
+        <li aria-current="page">Kontakt</li>
+      </ol>
+    </nav>
+        <h1 class="page-title">Kontakt</h1>
     <div class="contact-grid">
       <div>
         <p class="contact-intro">Möchten Sie mehr über die Carbono Platten erfahren? Schreiben Sie uns oder rufen Sie uns an, wir freuen uns darauf all Ihre Fragen zu beantworten.</p>
-        <div class="contact-actions">
-          <a class="btn" href="mailto:info@bucarr.com">E-Mail schreiben</a>
-          <p class="contact-phone"><a href="tel:+4915125507249">0151/25507249</a></p>
-        </div>
+        <form class="contact-form" data-kontakt-form method="post" action="">
+          <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
+          <input type="hidden" name="subject" value="Anfrage über bucarr.com">
+          <div class="botcheck" aria-hidden="true">
+            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+          </div>
+          <label class="form-field">
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label class="form-field">
+            <span>E-Mail-Adresse</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="form-field">
+            <span>Nachricht</span>
+            <textarea name="message" required></textarea>
+          </label>
+          <label class="form-consent">
+            <input type="checkbox" name="datenschutz" value="zugestimmt" required>
+            <span>Ich habe die <a href="../datenschutz/">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben zur Beantwortung der Anfrage einverstanden.</span>
+          </label>
+          <button class="btn" type="submit">Senden</button>
+          <p id="kontakt-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <noscript>
+          <p>Das Formular braucht JavaScript. Schreiben Sie an <a href="mailto:info@bucarr.com">info@bucarr.com</a> oder rufen Sie <a href="tel:+4915125507249">0151/25507249</a> an.</p>
+        </noscript>
       </div>
       <div>
-        <p class="contact-hello">Kontaktieren Sie uns!</p>
+        <h2 class="contact-hello">Kontaktieren Sie uns!</h2>
         <p class="contact-role">Inhaber</p>
         <p class="contact-name">Martin Bueno Carrillo</p>
         <p class="contact-line"><a href="tel:+4915125507249">0151/25507249</a> // <a href="mailto:info@bucarr.com">info@bucarr.com</a></p>
@@ -76,5 +200,6 @@
       <p class="copy">© 2020 BuCarr. Landsberg am Lech.</p>
     </div>
   </footer>
+  <script src="../js/kontakt.js"></script>
 </body>
 </html>
