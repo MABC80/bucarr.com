@@ -31,19 +31,9 @@ Headings use Nunito Sans and body text uses Zilla Slab, loaded from Google Fonts
 
 ## Contact form
 
-The Kontakt page posts to [Web3Forms](https://web3forms.com/) (`https://api.web3forms.com/submit`). The access key is a public identifier for `info@bucarr.com`, not a private secret. It is still a placeholder:
+The Kontakt page sends messages to `info@bucarr.com` through [Web3Forms](https://web3forms.com/) (`https://api.web3forms.com/submit`). The hidden `access_key` in `kontakt/index.html` is already set to the public client key for that address. It is not a private secret.
 
-`WEB3FORMS_ACCESS_KEY` in `kontakt/index.html`
-
-Until that value is replaced, the form does not claim success. It asks the visitor to write to `info@bucarr.com` instead.
-
-To activate it:
-
-1. Open [web3forms.com](https://web3forms.com/) and request an access key for `info@bucarr.com`.
-2. Open the confirmation mail sent to that address and copy the public access key.
-3. Replace `WEB3FORMS_ACCESS_KEY` in `kontakt/index.html` with that key.
-
-No other credential is required.
+The page shows “Vielen Dank für Ihre Nachricht!” only after Web3Forms answers with a successful response. Any other result, including a network failure, stays an error and keeps the form filled. If that field is emptied or set back to the placeholder `WEB3FORMS_ACCESS_KEY`, the script does not submit and does not claim success.
 
 ## Discovery
 
